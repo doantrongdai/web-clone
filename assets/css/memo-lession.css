@@ -1,0 +1,45 @@
+Note
+1./*thao tác khi code*/
+- Comment nhanh ctrl + /
+- Chọn code có ký tự giống nhau... Ctrl+ d --- muốn chọn thêm phần đằng sau nhấn 
+giữ shift + mũi tên phải-- shift + alt + sang phải... chọn cả phần chữ phía sau phần giống nhau 
+- Ấn nút alt + nút lên xuống để đẩy dòng câu lệnh
+
+2. color- là màu của content chữ chẳng hạn... 
+
+3. background-color là màu nền của border với padding
+File bass.css là để dùng chung.. ví dụ button, hay các tool có các chức năng chung
+
+4./*Vị trí class*/
+top 100% tức là vị trí cao nhất của thẻ con ở vị trí đáy của thằng cha
+top 0% tức là vị trí cao nhất trùng với vị trí cao nhất của thẻ cha
+
+
+5./*css selectors*/
+https://www.w3schools.com/csSref/css_selectors.php ... Các cách để css selectors... lựa chọn các phần tử để css
+
+6./*display: block*/ 
+Tự động kế thừa chiều ngang thằng chứa nó.. 
+Khối sẽ ko nằm trên cùng 1 dòng,.. đẩy cái chữ Chưa có sản phẩm xuống dưới hình ảnh
+
+7./* LỚP GIẢ ---pseudo class..*/  
+:root               --- tham chiếu đến phần tử gốc
+:hover              --- thêm thuộc tính khi di chuột và
+:active             --- thêm thuộc tính khi bấm hoặc giữ chuột  
+:first-child        --- trong tập hợp các thẻ con sẽ lấy được thằng đầu hoặc cuối để css
+:last-child                
+
+8./*Phần tử giả ---- CSS pseudo elements*/
+Tạo ra phần tử hiện thị cho web ko cần viết mã HTML, chỉ cần viết CSS
+::before
+::after
+::first-letter
+::first-line
+::selection
+
+9.Nguyên tắc riponsive
+.grid{
+    .row
+      .column
+}
+
